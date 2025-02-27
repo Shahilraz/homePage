@@ -1,4 +1,14 @@
 import React, { useState } from "react";
+import image from "../public/image.jpg";
+import Monday from "../public/Monday.jpg";
+import imagelogo from "../public/imagelogo.jpg";
+import oracle from "../public/oracle.jpg";
+import Morpheus from "../public/morpheus.jpg";
+import Samsung from "../public/Samsung.jpg";
+import Segment from "../public/Segment.jpg";
+
+
+
 
 const RegisterKaro = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,7 +64,7 @@ const RegisterKaro = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <img
-                src="src\assets\imagelogo.png"
+                src={imagelogo}
                 alt="RegisterKaro Logo"
                 className="h-12"
               />
@@ -352,7 +362,7 @@ const RegisterKaro = () => {
             {/* Hero Image */}
             <div className="lg:w-1/2 mt-8 lg:mt-0">
               <img
-                src="src\assets\image.png"
+                src={image}
                 alt="RegisterKaro Business Compliance"
                 className="w-full h-auto object-contain"
               />
@@ -368,32 +378,32 @@ const RegisterKaro = () => {
             </h2>
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
               <img
-                src="src\assets\oracle.png"
+                src={oracle}
                 alt="Oracle"
                 className="h-4 opacity-70 hover:opacity-100 transition-opacity"
               />
               <img
-                src="src\assets\Morpheus.png"
+                src={Morpheus}
                 alt="Morpheus"
                 className="h-4 opacity-70 hover:opacity-100 transition-opacity"
               />
               <img
-                src="src\assets\Morpheus.png"
+                src={Morpheus}
                 alt="Morpheus"
                 className="h-4 opacity-70 hover:opacity-100 transition-opacity"
               />
               <img
-                src="src\assets\Samsung.png"
+                src={Samsung}
                 alt="Samsung"
                 className="h-4 opacity-70 hover:opacity-100 transition-opacity"
               />
               <img
-                src="src\assets\Monday.png"
+                src={Monday}
                 alt="Monday.com"
                 className="h-4 opacity-70 hover:opacity-100 transition-opacity"
               />
               <img
-                src="src\assets\Segment.png"
+                src={Segment}
                 alt="Segment"
                 className="h-4 opacity-70 hover:opacity-100 transition-opacity"
               />
